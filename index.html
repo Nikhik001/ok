@@ -71,8 +71,8 @@ video.addEventListener('ended', () => {
   show('imageOne');
   setTimeout(() => {
     show('imageTwo');
-    setTimeout(() => show('final'), 1000);
-  }, 500);
+    setTimeout(() => show('final'), 3000);
+  }, 2000);
 });
 document.getElementById('replayBtn').addEventListener('click', () => {
   video.pause();
